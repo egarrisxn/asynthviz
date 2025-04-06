@@ -2,6 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/asynthviz) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/asynthviz)
 
+![asynthviz](https://github.com/user-attachments/assets/348a19e9-50b8-4613-888f-49feedda766c)
+
 ## **Overview**
 
 asynthviz is a fun little [Next.js](https://nextjs.org) web based synth.
