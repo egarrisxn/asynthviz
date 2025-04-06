@@ -1,4 +1,4 @@
-# **XO Synth*
+# **XO Synth**
 
 ![opengraph-image](https://github.com/user-attachments/assets/a49fec98-b71b-4f67-8dbd-9c77156effb0)
 
