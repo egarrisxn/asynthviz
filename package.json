@@ -1,7 +1,7 @@
 {
-  "name": "xosynth",
+  "name": "asynthviz",
   "version": "1.0.0",
-  "description": "Web based Synthesizer.",
+  "description": "A web based synth.",
   "license": "MIT",
   "private": true,
   "keywords": [

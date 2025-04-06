@@ -2,9 +2,9 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "XO Typing",
-    short_name: "XO",
-    description: "Typing Game.",
+    name: "asynthviz",
+    short_name: "asynthviz",
+    description: "A web based synth.",
     id: "/",
     start_url: "/",
     theme_color: "#000000",

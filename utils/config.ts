@@ -2,8 +2,8 @@ import { siteUrl } from "./env";
 import type { SiteConfig } from "./types";
 
 export const siteConfig: SiteConfig = {
-  title: "XO Synth",
-  description: "Web Based Synthesizer.",
+  title: "asynthviz",
+  description: "A web based synth.",
   url: siteUrl,
   ogImage: `${siteUrl}/opengraph-image.png`,
   twitterImage: `${siteUrl}/twitter-image.png`,

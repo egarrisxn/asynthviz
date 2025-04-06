@@ -1,1 +1,1 @@
-XO Synth: Web Based Synthesizer
+asynthviz: A web based synth.
