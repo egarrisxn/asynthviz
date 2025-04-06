@@ -258,7 +258,6 @@ export default function SynthPlayer() {
     }
   };
 
-  // Second row effect handlers
   const handleTremoloDepth = (value: number) => {
     if (synth) {
       synth.setTremoloDepth(value);
