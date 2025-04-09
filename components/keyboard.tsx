@@ -3,7 +3,7 @@
 import { memo } from "react";
 
 interface KeyProps {
-  note: string;
+  note?: string;
   label: string;
   isBlack: boolean;
   isActive: boolean;
@@ -14,7 +14,7 @@ interface KeyProps {
 }
 
 const Key = memo(
-  ({ note, label, isBlack, isActive, onClick, onMouseDown, onMouseUp, style }: KeyProps) => {
+  ({ label, isBlack, isActive, onClick, onMouseDown, onMouseUp, style }: KeyProps) => {
     const baseClasses = isBlack
       ? "absolute w-[6%] h-[60%] -ml-[4%] z-10"
       : "relative h-full w-[12.5%] first:rounded-l-lg last:rounded-r-lg";
@@ -49,8 +49,8 @@ const Key = memo(
         />
         <span
           className={`relative z-20 mb-2 text-xs font-medium ${
-            isBlack ? "text-gray-400" : "text-gray-500"
-          } transition-colors select-none ${isActive ? (isBlack ? "text-gray-300" : "text-gray-700") : ""}`}
+            isBlack ? "text-blue-400" : "text-pink-500"
+          } transition-colors select-none ${isActive ? (isBlack ? "text-blue-300" : "text-pink-700") : ""}`}
         >
           {label}
         </span>

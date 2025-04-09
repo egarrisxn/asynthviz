@@ -51,28 +51,26 @@ export const PitchShift: React.FC<PitchShiftProps> = ({ onChange }) => {
   }, [isDragging, handlePitchChange, handleMouseUp]);
 
   return (
-    <div className="relative mb-10 h-20 w-full">
+    <div className="rounded-base shadow-shadow border-border bg-background text-foreground relative mb-10 h-20 w-full border-2">
       <div
         ref={pitchShiftRef}
-        className={`relative size-full rounded bg-gradient-to-br from-white to-gray-100 ${
-          isDragging ? "cursor-grabbing" : "cursor-grab"
-        }`}
+        className={`relative size-full rounded ${isDragging ? "cursor-grabbing" : "cursor-grab"}`}
         onMouseDown={handleMouseDown}
       >
         <div
-          className="absolute h-1 w-full bg-gray-400 opacity-50"
+          className="absolute h-1 w-full bg-pink-400"
           style={{ bottom: `${((pitchShift + 12) * 100) / 24}%` }}
         />
         <div
-          className="absolute inset-0 flex items-center justify-center text-xl font-bold text-black"
+          className="absolute inset-0 flex items-center justify-center text-xl font-bold"
           style={{ userSelect: "none" }}
         >
           {pitchShift === -12 ? "0" : (pitchShift + 12).toFixed(2)}
         </div>
       </div>
-      <div className="absolute top-0 -right-6 flex h-full items-center">
+      <div className="absolute -bottom-13 left-1 flex h-full items-center">
         <span
-          className="origin-center -rotate-90 transform text-xs font-semibold whitespace-nowrap text-black"
+          className="origin-center transform text-xs font-semibold whitespace-nowrap text-black"
           style={{ userSelect: "none" }}
         >
           Pitch Shift

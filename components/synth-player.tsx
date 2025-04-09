@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useCallback } from "react";
 import * as Tone from "tone";
-import { Slider } from "./slider";
+import { Slider } from "@/components/ui/slider";
 import { WaveformVisualizer } from "./waveform-visualizer";
 import { Keyboard } from "./keyboard";
 import { NoteInfo } from "./note-info";
@@ -289,7 +289,7 @@ export default function SynthPlayer() {
   );
 
   return (
-    <div className="w-[800px] rounded-3xl border border-gray-300 bg-white p-6 shadow-xl">
+    <div className="rounded-base border-border shadow-shadow w-[800px] border-2 bg-white p-6">
       <div className="mb-6 grid grid-cols-2 gap-4">
         <div className="col-span-1 h-[100px]">
           <WaveformVisualizer analyser={analyser} />
