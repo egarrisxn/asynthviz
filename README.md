@@ -6,7 +6,7 @@
 
 ## **Overview**
 
-asynthviz is a fun little [Next.js](https://nextjs.org) web based synth.
+asynthviz is a fun little [Next.js](https://nextjs.org) web based synthesizer & inspired by work from the v0 community. 
 
 ## **Technologies**
 
