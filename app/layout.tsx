@@ -26,11 +26,8 @@ export const metadata: Metadata = {
     "typescript",
     "javascript",
     "nextjs",
-    "next15",
     "react",
-    "react19",
     "tailwindCSS",
-    "tailwindv4",
     "shadcnui",
     "eslint",
     "vercel",
@@ -81,6 +78,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <meta name="apple-mobile-web-app-title" content={siteConfig.title} />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <ThemeProvider>
           {children}
