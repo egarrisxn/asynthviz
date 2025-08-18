@@ -4,16 +4,6 @@
   "description": "A web based synth.",
   "license": "MIT",
   "private": true,
-  "keywords": [
-    "typesctipt",
-    "javascript",
-    "nextjs",
-    "reactjs",
-    "tailwindcss",
-    "shadcnui",
-    "eslint",
-    "vercel"
-  ],
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prebuild": "pnpm run lint",
