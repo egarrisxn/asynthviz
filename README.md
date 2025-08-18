@@ -15,7 +15,6 @@ asynthviz is a fun little [Next.js](https://nextjs.org) web based synthesizer & 
 - **Deployment**: [Vercel](https://vercel.com) – Optimized for seamless, serverless deployment.
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS for rapid styling.
 - **UI Components**: [shadcn/ui](https://ui.shadcn.com/) – A flexible, customizable UI component library.
-- **Animations**: [Motion](https://motion.dev) – Powerful animations with an intuitive API.
 - **Icons**: [lucide-react](https://lucide.dev/) – Crisp, open-source React icons.
 - **Linting & Formatting**:
   - [ESLint](https://eslint.org/) – Enforces code quality and best practices.
