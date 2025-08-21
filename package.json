@@ -10,7 +10,6 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "next-lint": "next lint",
     "lint": "eslint",
     "format": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache",
     "format:fix": "prettier --write \"**/*.{ts,tsx,mdx}\" --cache"
@@ -44,12 +43,14 @@
     "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "tailwindcss": "^4.1.3",
-    "typescript": "5.7.2",
-    "tw-animate-css": "^1.2.5"
+    "tw-animate-css": "^1.2.5",
+    "typescript": "5.7.2"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
-      "sharp"
+      "@tailwindcss/oxide",
+      "sharp",
+      "unrs-resolver"
     ]
   }
 }

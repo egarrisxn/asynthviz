@@ -289,7 +289,7 @@ export default function SynthPlayer() {
   );
 
   return (
-    <div className="rounded-base border-border shadow-shadow w-[800px] border-2 bg-white p-6">
+    <div className="w-[800px] rounded-base border-2 border-border bg-white p-6 shadow-shadow">
       <div className="mb-6 grid grid-cols-2 gap-4">
         <div className="col-span-1 h-[100px]">
           <WaveformVisualizer analyser={analyser} />

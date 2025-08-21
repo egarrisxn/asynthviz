@@ -17,7 +17,7 @@ function ScrollArea({
       className={cn("relative overflow-hidden", className)}
       {...props}
     >
-      <ScrollAreaPrimitive.Viewport className="font-base h-full w-full">
+      <ScrollAreaPrimitive.Viewport className="h-full w-full font-base">
         {children}
       </ScrollAreaPrimitive.Viewport>
       <ScrollBar />
@@ -43,7 +43,7 @@ function ScrollBar({
       )}
       {...props}
     >
-      <ScrollAreaPrimitive.ScrollAreaThumb className="bg-border relative flex-1 rounded-full" />
+      <ScrollAreaPrimitive.ScrollAreaThumb className="relative flex-1 rounded-full bg-border" />
     </ScrollAreaPrimitive.ScrollAreaScrollbar>
   );
 }

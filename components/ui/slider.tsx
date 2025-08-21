@@ -38,16 +38,16 @@ export function Slider({ label, value, onChange, steps = 8, showSegments = true 
             style={{ pointerEvents: "none" }}
           >
             <SliderPrimitive.Track
-              className="rounded-base bg-secondary-background border-border relative w-full grow overflow-hidden border-2 data-[orientation=horizontal]:h-3 data-[orientation=horizontal]:w-full data-[orientation=vertical]:h-full data-[orientation=vertical]:w-3"
+              className="relative w-full grow overflow-hidden rounded-base border-2 border-border bg-secondary-background data-[orientation=horizontal]:h-3 data-[orientation=horizontal]:w-full data-[orientation=vertical]:h-full data-[orientation=vertical]:w-3"
               style={{ pointerEvents: "none" }}
             >
               <SliderPrimitive.Range
-                className="bg-main absolute data-[orientation=horizontal]:h-full data-[orientation=vertical]:w-full"
+                className="absolute bg-main data-[orientation=horizontal]:h-full data-[orientation=vertical]:w-full"
                 style={{ pointerEvents: "none" }}
               />
             </SliderPrimitive.Track>
             <SliderPrimitive.Thumb
-              className="border-border focus-visible:ring-ring block size-4 cursor-grab rounded-full border-2 bg-pink-400 ring-offset-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 active:cursor-grabbing"
+              className="block size-4 cursor-grab rounded-full border-2 border-border bg-pink-400 ring-offset-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 active:cursor-grabbing"
               style={{ pointerEvents: "auto" }}
             />
           </SliderPrimitive.Root>

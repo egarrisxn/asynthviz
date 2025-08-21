@@ -51,7 +51,7 @@ export const PitchShift: React.FC<PitchShiftProps> = ({ onChange }) => {
   }, [isDragging, handlePitchChange, handleMouseUp]);
 
   return (
-    <div className="rounded-base shadow-shadow border-border bg-background text-foreground relative mb-10 h-20 w-full border-2">
+    <div className="relative mb-10 h-20 w-full rounded-base border-2 border-border bg-background text-foreground shadow-shadow">
       <div
         ref={pitchShiftRef}
         className={`relative size-full rounded ${isDragging ? "cursor-grabbing" : "cursor-grab"}`}
