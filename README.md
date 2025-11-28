@@ -1,4 +1,4 @@
-# **asynthviz**
+# **asynthviz** - v0 Inspired
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/asynthviz) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/asynthviz)
 
